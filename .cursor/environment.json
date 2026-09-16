@@ -1,0 +1,11 @@
+{
+  "name": "SQ Web Viewer Releases",
+  "install": "bash .cursor/scripts/install.sh",
+  "terminals": [
+    {
+      "name": "sq-web-viewer",
+      "command": "bash .cursor/scripts/run-viewer.sh"
+    }
+  ],
+  "ports": [{ "name": "sq-web-viewer", "port": 8080 }]
+}
